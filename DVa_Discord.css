@@ -298,7 +298,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 
 /*=================================================================================================================================================================*/
 
-.markup-2BOw-j,                             /*Цвет и форма букв основного теста*/
+.markup-2BOw-j,								/*Цвет и форма букв основного теста*/
 .cozy-3raOZG .header-23xsNx {
     color: #efff;
     text-shadow: 0px 0px 2px black,
@@ -2563,12 +2563,16 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     background-color: none!important
 }
 
-.role-2irmRk, .embedFull-2tM8--, .avatarSmall-2CW6I1, .scrollableContainer-2NUZem,.userSettingsAccount-2eMFVR .avatarUploaderInner-3Mrx2N,.avatar-3bWpYy,.avatarUploaderInner-3UNxY3, {
+.avatarSmall-2CW6I1, .scrollableContainer-2NUZem,.userSettingsAccount-2eMFVR .avatarUploaderInner-3Mrx2N,.avatar-3bWpYy,.avatarUploaderInner-3UNxY3 {
     border-radius: 10px;
 }
 
-.imageWrapper-2p5ogY {      /*Закругление изображений*/
-    border-radius: 4px;
+.imageWrapper-2p5ogY {		/*Закругление изображений*/
+    border-radius: 5px;
+}
+
+.role-2irmRk, .embedFull-2tM8-- {
+    border-radius: 5px;
 }
 
 .peopleListItem-2nzedh:hover,
@@ -3612,7 +3616,7 @@ svg[name=Nova_Discord] * {
     background-color: #120D17!important
 }
 
-.elevationHigh-1PneE4[style*="32, 34, 37"] {        /*Аккуратнее, вы не сохранили изменения!*/
+.elevationHigh-1PneE4[style*="32, 34, 37"] {		/*Аккуратнее, вы не сохранили изменения!*/
     background-color: var(--backgroundDarker)!important;
     box-shadow: 0 0 3.5px 1.5px rgba(0,0,0,.5)!important
 }
@@ -4190,7 +4194,7 @@ svg[name=Nitro] g path {
     position: relative
 }
 
-.layout-2DM8Md:after {  /*Настройки линии на главной*/
+.layout-2DM8Md:after {	/*Настройки линии на главной*/
     content: "";
     height: 2px;
     width: 94.5%;
