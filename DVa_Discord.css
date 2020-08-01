@@ -1,4 +1,4 @@
-    /*Поддержка систем*/
+   /*Поддержка систем*/
     
 .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item, .side-8zPYf6 .item-PXvHYJ {padding-left: 40px;}
 div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item,
@@ -294,6 +294,10 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 /*В голосовом чате*/
  .listDefault-2y5Z9D .avatarContainer-2inGBK, .avatar-1XO-mJ {
   border-radius: 50px;
+}
+/*В всплывающем окне сервера*/
+.avatar-3bWpYy,.avatarUploaderInner-3UNxY3 {
+    border-radius: 50px;
 }
 
 /*=================================================================================================================================================================*/
@@ -1911,10 +1915,11 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     box-shadow: none;
     color: white;
 }
-
+/*
 .theme-dark .searchResultsWrap-3-pOjs {
-    background: linear-gradient(135deg, #150e19 0%, #150e19 100%);
-} 
+    background: var(--backgroundDarker);
+}
+*/
 
 .theme-dark .channelSeparator-dTqJ4K:before {
     border-color: transparent;
@@ -1948,7 +1953,6 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     background-color: black;
     opacity: 1;
 }
-
 
 #app-mount .content-1o0f9g {
     color: white;
@@ -2196,13 +2200,12 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 .quickMessage-2XpSaN {
     border-radius: 7px;
 }
-
+/*"+" добавления ролей*/
 .theme-dark .actionButton-VzECiy {
     border-color: #4f545c;
     color: white;
-    background: #4f545c;
+    background: none;
 }
-
 
 .theme-dark .container-VSDcQc .sectionTag-pXyto9 {
     background-color: black;
@@ -2563,7 +2566,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     background-color: none!important
 }
 
-.avatarSmall-2CW6I1, .scrollableContainer-2NUZem,.userSettingsAccount-2eMFVR .avatarUploaderInner-3Mrx2N,.avatar-3bWpYy,.avatarUploaderInner-3UNxY3 {
+.avatarSmall-2CW6I1, .scrollableContainer-2NUZem,.userSettingsAccount-2eMFVR .avatarUploaderInner-3Mrx2N {
     border-radius: 10px;
 }
 
@@ -2605,9 +2608,9 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 .container-3baos1 {border: none!important}
 .content-1YdlXf {background-color: var(--backgroundDark);}
 .content-1o0f9g {
-  background-color: var(--backgroundDark)!important;
+  background-color: var(--backgroundDarker)!important;
   border: 0px solid #fff !important;
-  border-radius: 0px;
+  border-radius: 5px;
 }
 .modal-yWgWj- {background-color: var(--backgroundDark)!important;}
 .scrollerWrap-2lJEkd ::-webkit-scrollbar {width: 5px !important;}
@@ -3204,13 +3207,13 @@ svg[name=Nova_Discord] * {
 .headerNormal-T_seeN {
     background-color: rgba(0,0,0,.25)!important
 }
-
+/*раздел игры в попауте юзера*/
 .activity-11LB_k,.headerFill-adLl4x {
-    background-color: rgba(0,0,0,.15)
+    background-color: none
 }
 
 .headerPlaying-j0WQBV .activity-11LB_k,.topSectionPlaying-1J5E4n .headerFill-adLl4x {
-    box-shadow: 0 4px 2px -2px rgba(0,0,0,.5)
+    box-shadow: none;
 }
 
 .gameIcon-_0rmMm[style*=a5eba102f5b5e413df2b65c73f288afa] {
