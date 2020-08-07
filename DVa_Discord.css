@@ -1,4 +1,15 @@
-    /*Поддержка систем*/
+/* * * * * * * * * * * * * * * * * * * * *
+*    	                                 *
+*	███╗  ██╗██╗  ██╗██████╗  ██████╗	 *
+*   ████╗ ██║╚██╗██╔╝██╔══██╗██╔════╝	 *
+*   ██╔██╗██║ ╚███╔╝ ██████╔╝╚█████╗	 *
+*   ██║╚████║ ██╔██╗ ██╔═══╝  ╚═══██╗	 *
+*   ██║ ╚███║██╔╝╚██╗██║     ██████╔╝	 *
+*   ╚═╝  ╚══╝╚═╝  ╚═╝╚═╝     ╚═════╝     *
+*                                        *
+* * * * * * * * * * * * * * * * * * * * */
+
+	/*Поддержка систем*/
     
 .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item, .side-8zPYf6 .item-PXvHYJ {padding-left: 40px;}
 div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item,
@@ -1990,7 +2001,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
                  2px 0px 3px black;
 }
 
-.button-14-BFJ {
+.button-14-BFJ {						/*Цвет т размер главных кнопок*/
     margin-right: -2px;
     background-color: rgba(0,0,0,.089);
 }
@@ -2541,15 +2552,6 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm {padding-left: 15px;}
 .avatarOffline-3GF27z {filter: grayscale(100%);}
 
-  .markup-2BOw-j code.hljs,
-  .markup-2BOw-j code.hljs.inline {
-    background: var(--backgroundCode);
-    box-sizing: border-box;
-    padding-top: none;
-    position: relative;
-    border: none;
-}
-
   .sidebar-CFHs9e .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:not(.role-3wi9Tf)::before,
   .side-8zPYf6 .item-PXvHYJ:not(.role-3wi9Tf)::before {
       content: "";
@@ -2560,7 +2562,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
       left: 10px;
       top: 50%;
       transform: translateY(-50%);
-  }
+}
 
 .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover,.enabled-1t_Gxm:hover,.nowPlayingColumn-2sl4cE,.peopleList-3c4jOR,.container-1D34oG,#friends,.appMount-3VJmYg,.applicationStore-1pNvnv,.article-3kb3qm,.body-3ND3kc,.body-3iLsc4,.channels-Ie2l6A,.chat-3bRxxu,.chat-3bRxxu form,.container-1UB9sr,.container-2Thooq,.container-3ayLPN,.container-PNkimc,.content-yTz4x3,.footer-1fjuF6,.gameLibrary-TTDw4Y,.guildsWrapper-5TJh6A,.header-2o-2hj,.header-39GIC8,.headerBar-UHpsPw,.members-1998pB,.messagesWrapper-3lZDfY,.root-1BQpZw,.root-26DmKJ,.title-3qD0b-,.typeWindows-1za-n7,.video-1FfuMD, .da-peopleList, .da-nowPlayingScroller, .da-itemCard {
     background-color: none!important
@@ -2931,8 +2933,16 @@ div[data-contents="true"] {
     background-color: rgba(0,0,0,.25)!important
 }
 
-.hljs {
-    border-radius: 0 6px 6px 6px
+.hljs {		/*ёёё табло*/
+    border-radius:	6px  /*Левый  верхний угол*/
+    				6px  /*Правый верхний угол*/
+    				6px  /*Правый нижний  угол*/
+    				6px  /*Левый  нижний  угол*/
+}
+
+  .markup-2BOw-j code.hljs{
+  	color: white;
+    border: -0px;
 }
 
 .wrapper-2lTRaf {
@@ -3265,12 +3275,15 @@ svg[name=Nova_Discord] * {
     border: none!important
 }
 
-.channelTextArea-rNsIhG {       /*Строка ввода сообщения*/
-    padding-top: 0;
-    margin: 5px 0;
+/*Строка ввода сообщения*/
+/*
+.channelTextArea-rNsIhG {
+    padding-top: 0px;
+    margin: 10px 0px;
     border: none!important;
     background-color: none; 
 }
+*/
 
 .messagesWrapper-3lZDfY .scroller-wrap.polyfill .scrollbar,.messagesWrapper-3lZDfY .scroller-wrap.polyfill .scrollbar::after,.pad-29zQak,.scrollerThemed-2oenus .scrollbar-2rkZSL,.scrollerThemed-2oenus .scrollbar-2rkZSL .pad-29zQak,.scrollerThemed-2oenus .scrollbar-2rkZSL::after,.scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scrollbar-2rkZSL .pad-29zQak,.scrollerThemed-2oenus.themeGhostHairlineChannels-3G0x9_ .scrollbar-2rkZSL .pad-29zQak {
     background-color: var(--backgroundDark)!important
@@ -4091,11 +4104,11 @@ svg[name=Nitro] g path {
 }
 
 .markup-2BOw-j pre {
-    background-color: #1b121b!important
+    background-color: none!important
 }
 
 .markup-2BOw-j code,.markup-2BOw-j code.inline {
-    background-color: #130d18!important
+    background-color: var(--backgroundDarker) !important
 }
 
 .hljs::before {
