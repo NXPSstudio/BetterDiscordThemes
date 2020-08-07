@@ -94,6 +94,13 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(23)::before{background:url(https://codedotspectra.github.io/themes/icons/changelog.png) center}
 .platform-web #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(26)::before{background:url(https://codedotspectra.github.io/themes/icons/logout.png) center}
 
+                       /*[имя]   [время работы] [стиль работы] [время до начала работы] [количество повторов]; */          /*Анимация включеня темы*/
+#app-mount {animation: themeStart       1s          ease-in              0s                    1 normal}
+@keyframes themeStart {
+    from {filter: brightness(0%)}
+    to {filter: brightness(100%)}
+}
+
     /*Рамка активности людей*/
 
 [role="img"][aria-label]:before {
