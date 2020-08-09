@@ -1636,7 +1636,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 
 .unread-1xRYoj {
     background-color: rgb(0, 0, 0);
-    opacity: .3;
+    opacity: .8;
 }
 
 .chat-3bRxxu,
@@ -4078,7 +4078,7 @@ svg[name=Nitro] g path {
 }
 
 .unread-1xRYoj {
-    background-color: var(--primaryGradient1)
+    background-color: #b34b69
 }
 
 .hljs::before {
