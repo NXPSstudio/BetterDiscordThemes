@@ -4745,7 +4745,7 @@ svg[name=Nitro] g path {
 }
 
 .wrapper-3WhCwL {
-    background-color: #09070C!important;
+    background-color: var(--backgroundDarker)!important;
     color: var(--primary)!important;
     border-radius: 50px;
     padding: .5px 5px;
