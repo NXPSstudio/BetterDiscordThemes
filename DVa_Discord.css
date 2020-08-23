@@ -306,11 +306,15 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
   border-radius: 50px;
 }
 /*В всплывающем окне сервера*/
-.avatar-3bWpYy,.avatarUploaderInner-3UNxY3 {
+.avatar-3bWpYy {
     border-radius: 50px;
 }
 
 /*=================================================================================================================================================================*/
+
+.avatarUploaderInner-3UNxY3 {				/*Форма аватарки в создании сервера*/
+    border-radius: 30px;
+}
 
 .markup-2BOw-j,								/*Цвет и форма букв основного теста*/
 .cozy-3raOZG .header-23xsNx {
@@ -403,18 +407,13 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     background: rgba(141, 160, 224, 0.345);
 }
 
-.h5-18_1nd,
-.theme-dark .keybind-KpFkfr {
-    color: white;
-}
-
 .theme-dark .userSettingsAccount-2eMFVR .viewBody-2Qz-jg {
     color: #efff;
     text-shadow: 2px 0px 3px black;
 }
 
 .theme-dark .closeButton-1tv5uR {
-    border: 2px solid var(--backgroundLighter);
+    border: 2px solid var(--primary);
 }
 
 .theme-dark .closeButton-1tv5uR:hover {
@@ -450,10 +449,10 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     border-color: transparent !important;
 }
 
-.input-cIJ7To {
-    border-radius: 8px;
+.input-cIJ7To {							/*заметки и сообщения*/
+    border-radius: 6px;
     color: white;
-    background-color: rgba(0,0,0,.2);
+    background-color: rgba(0,0,0,.3);
     border: 1px solid transparent;
 }
 
@@ -655,19 +654,14 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     border-radius: 4px;
 }
 
-.bd-switch-checked,
-.themeDefault-24hCdX.valueChecked-m-4IJZ {
-    background: var(--backgroundLighter);
-}
-
 .cardPrimaryOutline-29Ujqw {
     border-color: black;
     background-color: rgba(0, 0, 0, 0.092);
 }
 
 .card-3Qj_Yx {
-    border-width: 2px;
-    border-radius: 12px;
+    border-width: 0;
+    border-radius: 6px;
 }
 
 .box-mmYMsp {
@@ -756,11 +750,6 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     background-color: rgba(0, 0, 0, 0.197);
 }
 
-.side-8zPYf6 .item-PXvHYJ[style*="color: rgb(114, 137, 218);"] {
-    color: white !important;
-    background-color: rgba(0, 0, 0, 0.201) !important;
-}
-
 .bd-toast.toast-success {
     background-color: #1a5239;
 }
@@ -839,8 +828,8 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 }
 
 .cardPrimaryEditable-3KtE4g[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
-    background-color: var(--backgroundLighter) !important;
-    border: 2px solid rgba(0, 0, 0, 0.52) !important;
+    background-color: var(--backgroundDarker) !important;
+    border: 1px solid var(--primary) !important;
 }
 
 .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
@@ -958,8 +947,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 }
 
 .theme-dark .modal-yWgWj- {
-    background-color: var(--backgroundLighter);
-    box-shadow: none;
+    background-color: var(--backgroundDark);
 }
 
 .theme-dark .footer-2gL1pp {
@@ -1967,9 +1955,8 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 }
 
 #app-mount .content-1o0f9g {
-    color: white;
-    background-color: rgba(255,255,255,.082);
-    padding: 4px 7px;
+    color: #efff;
+    padding: 1.5px 3.5px;
 }
 
 #app-mount .isUnread-3Ef-o9 .content-1o0f9g {
@@ -2126,11 +2113,11 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 }
 
 .headerPlaying-j0WQBV{
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .topSectionPlaying-1J5E4n {
-    background: rgba(0, 0, 0, 0.0);
+    background: rgba(0, 0, 0, 0.45);
 }
 
 .headerSpotify-zpWxgT,
@@ -2148,14 +2135,6 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 
 .topSectionStreaming-1Tpf5X {
     background: rgba(65, 20, 113, 0.80);
-}
-
-.theme-dark .headerNormal-T_seeN {
-    background-color: rgba(30, 31, 110, 0.78);
-}
-
-.topSectionNormal-2-vo2m {
-    background-color: rgba(30, 31, 110, 0.60);
 }
 
 .theme-dark .body-3iLsc4,
@@ -2559,18 +2538,15 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     border-radius: 5px;
 }
 
-.peopleListItem-2nzedh:hover,
-.wrapper-3D2qGf {background-color: rgba(0,0,0,.25)}
-.searchBar-6Kv8R2 .searchBarComponent-32dTOx,
-.actionButton-uPB8Fs,
-.inset-3sAvek {background-color: rgba(0,0,0,.45) !important}
-.modal-yWgWj-,
-.content-1o0f9g,
-.scrollableContainer-2NUZem,
-.popout-13LQ_3 {
+.peopleListItem-2nzedh:hover, .wrapper-3D2qGf {background-color: rgba(0,0,0,.25)}
+
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx, .actionButton-uPB8Fs, .inset-3sAvek {background-color: rgba(0,0,0,.45) !important}
+
+.content-1o0f9g, .scrollableContainer-2NUZem, .popout-13LQ_3 {
   background-color:  var(--backgroundDarker)!important;
   box-shadow: inset 0 0 0 1px var(--primary) !important;
 }
+
 /*Полосы разделения основного чата*/
 .unreadPill-2HyYtt {
     border-radius: 0;
@@ -2600,7 +2576,6 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
   border: 1px solid var(--backgroundDarker) !important;
   border-radius: 6px;
 }
-.modal-yWgWj- {background-color: var(--backgroundDark)!important;}
 .scrollerWrap-2lJEkd ::-webkit-scrollbar {width: 5px !important;}
 .folder-21wGz3, .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 {background-color: var(--background) !important;}
 .grid-1nZz7S {background-color: var(--background) !important;}
@@ -2626,7 +2601,6 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 .scroller-3sQKXg:after {
   height: 18px;
 }
-.slideBody-2nMrnU, .or-3THJsp, .slideBody-35BNbg, .footer-3rDWdC,.regionSelectModal-12e-57, .regionSelectModalOption-2DSIZ3 {background-color: var(--backgroundDark) !important;}
 .avatar-21196O {border: 0px;}
 .input-1mgnkM, .input-UJ9Tr3 {color: white !important;}
 .content-MLh4nU { background-color: transparent !important;}
@@ -3071,7 +3045,7 @@ svg[name=Nova_Discord] * {
     border-radius: 10px 10px 0 0
 }
 
-#friends .friends-table .friends-row .friends-column-actions .friends-action,#friends .tab-bar.tab-bar-desktop .tab-bar-item,.app button,.bd-modal-wrapper .footer button,.button-3To2tQ,.connectionDelete-2Odoln,.lookInverted-2D7oAl.colorBrand-3pXr91,.questionMark-CWEQZn {
+#friends .friends-table .friends-row .friends-column-actions .friends-action,#friends .tab-bar.tab-bar-desktop .tab-bar-item,.app button,.bd-modal-wrapper .footer button,.connectionDelete-2Odoln,.lookInverted-2D7oAl.colorBrand-3pXr91,.questionMark-CWEQZn {
     border-radius: 50px!important
 }
 
@@ -3528,7 +3502,6 @@ svg[name=Nova_Discord] * {
 
 .cardPrimary-1Hv-to,.cardPrimaryEditable-3KtE4g:not([style*=rgb]),.cardPrimaryOutline-29Ujqw,.codeRedemptionRedirect-1wVR4b,.paymentPane-3bwJ6A,.wrapper-2NJDcI {
     background-color: rgba(0,0,0,.3)!important;
-    border: none;
 }
 
 .paginator-166-09,.paymentRow-2e7VM6 {
@@ -3565,10 +3538,6 @@ svg[name=Nova_Discord] * {
 
 .themeDefault-24hCdX.valueChecked-m-4IJZ {											/*Цвет включенного переключателя*/
     background-color: var(--primary)!important
-}
-
-#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,.cardPrimaryEditable-3KtE4g[style*="rgb(114, 137, 218)"],.option-n0icdO:hover,.selected-mKYnfr.option-n0icdO {
-    background-color: var(--backgroundDarker)!important
 }
 
 .cardPrimaryEditable-3KtE4g[style*="rgb(114, 137, 218)"],.wrapper-3jrx9n {
@@ -3670,10 +3639,14 @@ svg[name=Nova_Discord] * {
 }
 
 .disabled-3I9jyo {
-    color: rgba(0,0,0,.35)!important
+    color: var(--primary2)!important
 }
 
-.divider-3573oO,.option-n0icdO,.user-settings-games .not-detected {
+.divider-3573oO, .user-settings-games .not-detected {
+    background-color: rgba(0,0,0,.35)!important
+}
+
+.option-n0icdO {
     background-color: rgba(0,0,0,.35)!important
 }
 
@@ -4617,11 +4590,11 @@ svg[name=Nitro] g path {
 }
 
 .theme-dark .emptyHintCard-2mUdMe,.theme-dark .tooltipGrey-1hnvTt,.theme-dark .popout-1k352f,.theme-dark .popout-38lTFE,.bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected {
-    background-color: var(--backgroundDark);
+    background-color: var(--backgroundDarker);		/*Процент громкости пользователя*/
 }
 
 .theme-dark .tooltipGrey-1hnvTt .tooltipPointer-3ZfirK {
-    border-top-color: var(--backgroundDark);
+    border-top-color: var(--backgroundDarker);		/*Процент громкости пользователя (галочка)*/
 }
 
 .partyMember-1CzxeX {
