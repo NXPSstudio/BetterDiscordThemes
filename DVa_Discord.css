@@ -1625,10 +1625,8 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     border-radius: 7px;
 }
 
-.wrapper-1ucjTd:hover .content-3at_AU,
 .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh {
-    background-color: rgba(0, 0, 0, 0.28);
-    border: 2px solid rgba(255,255,255,.1);
+    border: 1px solid var(--primary2);
 }
 
 .modeMuted-3osy7j .icon-1_QxNX, 
@@ -2054,7 +2052,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 }
 
 .channelTextArea-rNsIhG {
-    background: none;
+    background: var(--backgroundDarker);
 }
 
 .uploadArea-3QgLtW {
@@ -2082,28 +2080,6 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 .theme-dark .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
     border: none;
     border-radius: 30px;
-}
-
-.lookInverted-2D7oAl.colorBrand-3pXr91 {
-    color: white;
-    background-color: transparent;
-    border: 2px solid #4570e6;
-}
-
-.lookInverted-2D7oAl.colorBrand-3pXr91:hover {
-    color: white;
-    background-color: #4570e6;
-}
-
-.lookInverted-2D7oAl.colorGreen-29iAKY {
-    color: white;
-    background-color: transparent;
-    border: 2px solid #147b38;
-}
-
-.lookInverted-2D7oAl.colorGreen-29iAKY:hover {
-    color: white;
-    background-color: #127635;
 }
 
 .liveRed-lUmv1v {
