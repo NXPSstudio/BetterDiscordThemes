@@ -681,7 +681,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 .theme-dark .uploadModal-2ifh8j {
     background-color: var(--backgroundDark);
     background-size: cover;
-    border-radius: 0px;
+    border-radius: 6px;
 }
 
 .theme-dark .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
@@ -1820,7 +1820,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 
 .theme-dark .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
     border: none;
-    border-radius: 30px;
+    border-radius: 6px;
 }
 
 .liveRed-lUmv1v {
@@ -3537,7 +3537,7 @@ svg[name=Nova_Discord] * {
 }
 
 .bd-modal-wrapper .bd-modal-body,.bd-modal-wrapper .bd-modal-inner,.diversitySelector-tmmMv0 .popout-2nUePc {
-    background-color: var(--background)!important
+    background-color: var(--backgroundDark)!important
 }
 
 .bda-dark .emoji-picker .dimmer.visible,.bda-dark .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ {
