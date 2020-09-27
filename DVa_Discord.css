@@ -470,6 +470,12 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     border-radius: 6px;
 }
 
+.themeDefault-24hCdX,
+.bd-switch {
+    background-color: rgba(208, 208, 208, 0.30);
+    border-radius: 6px;
+}
+
 .sizeDefault-2YlOZr:after, 
 .sizeMini-1ii40f,
 .bd-switch::after {
