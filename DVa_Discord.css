@@ -3930,7 +3930,28 @@ svg[name=Nitro] g path {
     color: #efff
 }
 
-.wrapper-2qzCYF.minimum-28Z35l,.scroller-2XE8rp,.theme-dark .notice-2X5hT5,.attachPopout-36hjtN,.contentRegionScroller-26nc1e,.messages-3amgkR,.scroller-2FKFPG .scroller-305q3I,.theme-dark .perksModal-fSYqOq,.container-1giJp5,.container-3baos1,.privateChannels-1nO12o,.root-SR8cQa,.scroller-1JbKMe,.scroller-2TZvBN,.theme-dark .bodyInner-245q0L,.theme-dark .footer-1fjuF6,.activityPanel-28dQGo,.friendsTable-133bsv .friendsTableBody-1ZhKif,.scroller-1IIF0A,.scroller-9moviB,.wrapper-2aW0bm {
+.wrapper-2qzCYF.minimum-28Z35l,
+.wrapper-3vR61M,
+.scroller-2XE8rp,
+.theme-dark .notice-2X5hT5,
+.attachPopout-36hjtN,
+.contentRegionScroller-26nc1e,
+.messages-3amgkR,
+.scroller-2FKFPG .scroller-305q3I,
+.theme-dark .perksModal-fSYqOq,
+.container-1giJp5,
+.container-3baos1,
+.privateChannels-1nO12o,
+.root-SR8cQa,
+.scroller-1JbKMe,
+.scroller-2TZvBN,
+.theme-dark .bodyInner-245q0L,
+.theme-dark .footer-1fjuF6,
+.activityPanel-28dQGo,
+.friendsTable-133bsv .friendsTableBody-1ZhKif,
+.scroller-1IIF0A,
+.scroller-9moviB,
+.wrapper-2aW0bm {
     background-color: var(--background)!important
 }
 
@@ -4465,4 +4486,8 @@ svg[name=Nitro] g path {
     border-radius: 6px;
     padding: .5px 5px;
     transition: all .2s ease;
+}
+
+.wrapper-1F5TKx {
+    background-color: rgba(0,0,0,.5);
 }
