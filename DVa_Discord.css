@@ -1518,7 +1518,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 .theme-dark .resultsGroup-r_nuzN .plusIcon-v0BTrL, 
 .theme-dark .resultsGroup-r_nuzN .searchClearHistory-2cSSMO, 
 .theme-dark .resultsGroup-r_nuzN .searchLearnMore-3SQUAj {
-    color: #fd369e;
+    color: var(--additional);
 }
 
 .theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z:hover,
@@ -1526,7 +1526,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day,
 .theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw .hint-165cR4,
 .icon-3cZ1F_ {
-    color: #fd369e;
+    color: var(--additional);
 }
 
 .theme-dark .container-3ayLPN {
@@ -2106,7 +2106,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     width: 11px;
     height: 11px;
     border-radius: 8px;
-    background-color: #fd369e;
+    background-color: color: var(--additional);
     border: 2px solid black;
 }
 
@@ -2193,33 +2193,6 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     flex-direction: column;
     flex-flow: row wrap;
 }
-
-/* ЛЕВАЯ СТОРОНА
-.wrapper-1Rf91z                     { width: 184px }
-.wrapper-1Rf91z .scroller-2TZvBN    {
-    display: flex;
-    flex-flow: row wrap;
-    align-content: flex-start;
-}
-
-.tutorialContainer-1v44GL {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.base-3dtUhz {
-    left: 184px;
-}
-
-.wrapper-1Rf91z .scroller-2TZvBN .guildSeparator-3s64Iy {  
-
-    width: 135px;
-    display: block;
-    margin: 10px auto 10px;
-    margin-left: 25px;
-}
-*/
 
 #bd-pub-li #bd-pub-button {
     position:absolute;
@@ -2504,7 +2477,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     margin-top: 0px!important;
     margin-left: 0px;
     margin-right: 0px;
-    background: linear-gradient(to right, var(--primary) 0%, black 50%,#fd369e 100%);
+    background: linear-gradient(to right, var(--primary) 0%, black 50%,color: var(--additional) 100%);
     box-shadow: inset 0px 19px 0px 0px black;
 }
 
@@ -4420,9 +4393,45 @@ svg[name=Nitro] g path {
     mask: none;
 }
 
-.icon-27yU2q {
-    border-radius: 12px;	/*Иконки серверов в левом списке*/
+/*===========================ЛЕВАЯ СТОРОНА==========================*/
+.wrapper-1Rf91z                     { width: 184px }
+.wrapper-1Rf91z .scroller-2TZvBN    {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
 }
+.tutorialContainer-1v44GL {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.base-3dtUhz {
+    left: 184px;
+}
+.wrapper-1Rf91z .scroller-2TZvBN .guildSeparator-3s64Iy {  
+    width: 135px;
+    display: block;
+    margin: 10px auto 10px;
+    margin-left: 25px;
+}
+
+.wrapper-1Rf91z .scroller-2TZvBN > div[aria-label="Servers"] {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+}
+
+.wrapper-1Rf91z .scroller-2TZvBN > div {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+
+.icon-27yU2q {
+    border-radius: 6px;	/*Иконки серверов в левом списке*/
+}
+
+/*==================================================================*/
 
 .iconInactive-98JN5i {
     border-radius: 30%;
@@ -4458,7 +4467,7 @@ svg[name=Nitro] g path {
 
 .wrapper-3WhCwL {
     background-color: var(--backgroundDarker) !important;
-    color: #fd369e;
+    color: color: var(--additional);
     border: 0.5px solid transparent;
     border-radius: 6px;
     padding: .5px 5px;
@@ -4467,4 +4476,26 @@ svg[name=Nitro] g path {
 
 .wrapper-1F5TKx {
     background-color: rgba(0,0,0,.5);
+}
+
+.bd-toast {
+  background: var(--backgroundDarker)!important;
+  border: 1px solid var(--primary)!important;
+  border-radius: 6px!important;
+  color: var(--additional)!important;
+}
+
+.bd-toasts, .toasts {
+  top: initial!important;
+  bottom: 0px!important;
+}
+
+.bd-toasts {
+  left: 10px!important;
+  right: 0px!important;
+  align-items: flex-start!important;
+}
+
+[class*="toast"] {
+  font-size: 10px!important;
 }
