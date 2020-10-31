@@ -1022,7 +1022,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 }
 
 .numberBadge-2s8kKX {
-    background-color: var(--backgroundLighter) !important;
+    background-color: var(--unread) !important;
 }
 
 .base-PmTxvP {
@@ -4157,10 +4157,6 @@ svg[name=Nitro] g path {
     margin: 36px -4px;
 }
 
-.numberBadge-2s8kKX,.live-vBWnV6 {
-    background-color: #42b27f !important;
-}
-
 .liveBadge-yuNuMC {
     background-color: var(--primary);
 }
@@ -4305,8 +4301,8 @@ svg[name=Nitro] g path {
     margin: 36px -4px;
 }
 
-.numberBadge-2s8kKX,.live-vBWnV6 {
-    background-color: var(--primary)!important;
+.live-vBWnV6 {
+    background-color: var(--unread)!important;
 }
 
 .liveBadge-yuNuMC {
@@ -4445,10 +4441,6 @@ svg[name=Nitro] g path {
 
 .iconBadge-2wi9r4, .numberBadge-2s8kKX {
     margin: 36px -4px;
-}
-
-.numberBadge-2s8kKX,.live-vBWnV6 {
-    background-color: var(--unread)!important;
 }
 
 .incomingCallInner-2VmFiR, .noiseCancellationPopout-iRK2A0, .theme-dark .guildPopout-3CgKqR, .theme-dark .streamPreview-2-WUWT,.card-1yV8cG,.tutorial-3w5I9h {
