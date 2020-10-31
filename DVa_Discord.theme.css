@@ -1,0 +1,71 @@
+//META{"name":"D.Va Returns","description":"Dark D.Va Theme","author":"NXPS studio","version":"2.4"}*//
+
+@import url('https://nxpsstudio.github.io/BetterDiscordThemes/DVa_Discord.css');
+
+
+:root {
+    
+    --friends-icon: url(https://i.imgur.com/zlbRUdQ.png);   /* Кнопка основного меню/Freinds button */
+    --friends-icon-zoom: 100%;
+															/* Смена цветовой палитры/Change colors */
+    --background: transparent;
+    --backgroundDark: #120D17;
+    --backgroundDarker: #09070C;
+    --backgroundLighter: #150e19;
+    --line: #b34b69;
+    --primary: #43b581;
+    --primary2: #b34b69;
+    --additional: #fd369e;
+    --unread: #631332;
+    --popout: #631332;
+}
+
+.app-2rEoOp {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 33%, rgba(0, 0, 0, 0.6) 65%), url(https://i.imgur.com/x9G1G3y.jpg);		/* Основной бэкграунд / Main background */
+    background-size: cover;
+}
+.standardSidebarView-3F1I7i {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 33%, rgba(0, 0, 0, 0.7) 65%), url(https://i.imgur.com/46t1jdp.jpg);    	/* Бэкграунд настроек / Settings background*/
+    background-size: cover;
+}
+
+ .listDefault-2y5Z9D .avatarContainer-2inGBK, .avatar-1XO-mJ {
+  border-radius: 5px;
+}
+
+.userPopout-3XzG_A {
+    box-shadow: 0 0 5px 1.53px rgba(0,0,0,.75);
+    border-radius: 15px;
+    background-size: cover;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 33%, rgba(0, 0, 0, 0.7) 65%), url(https://i.imgur.com/gEml1cf.jpg) 10%/cover;	/* Бэкграунд всплывающего окна пользователя / Background profile menu#1 */
+}
+
+.root-SR8cQa {
+    border-radius: 12px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 33%, rgba(0, 0, 0, 0.7) 65%), url(https://i.imgur.com/flxasQO.jpg) 10%/cover;	/* Бэкграунд окна пользователя / Background profile menu#2 */
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * *
+*                                              *
+*   ███╗  ██╗██╗  ██╗██████╗  ██████╗          *
+*   ████╗ ██║╚██╗██╔╝██╔══██╗██╔════╝          *
+*   ██╔██╗██║ ╚███╔╝ ██████╔╝╚█████╗           *
+*   ██║╚████║ ██╔██╗ ██╔═══╝  ╚═══██╗          *
+*   ██║ ╚███║██╔╝╚██╗██║     ██████╔╝          *
+*   ╚═╝  ╚══╝╚═╝  ╚═╝╚═╝     ╚═════╝  STUDIO   *
+*                                              *
+* * * * * * * * * * * * * * * * * * * * * * * */
+
+/*
+#631332 - dark pink
+#fd369e - max pink 
+#b34b69 - pink
+#43b581 - green
+#120D17 - main color
+#150e19 - lighter main color
+#09070C - darker main color
+*/
+
+
+
