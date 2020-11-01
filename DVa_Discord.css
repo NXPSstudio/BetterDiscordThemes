@@ -2477,7 +2477,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     margin-top: 0px!important;
     margin-left: 0px;
     margin-right: 0px;
-    background: linear-gradient(to right, var(--primary) 0%, black 50%,color: var(--additional) 100%);
+    background: linear-gradient(to right, var(--primary) 0%, black 50%, var(--additional) 100%);
     box-shadow: inset 0px 19px 0px 0px black;
 }
 
