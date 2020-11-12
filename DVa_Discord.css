@@ -310,7 +310,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 				                                      /*Фикс каналов*/
 
 .base-3dtUhz .sidebar-2K8pFh {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.3);
 }
 
 .sidebar-2K8pFh .container-3w7J-x {
@@ -319,7 +319,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 
 .sidebar-2K8pFh .clickable-25tGDB .header-2V-4Sw:hover,
 .sidebar-2K8pFh .selected-31Nl7x .header-2V-4Sw {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.3);
 }
 
 
