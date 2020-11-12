@@ -104,12 +104,6 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     to {filter: brightness(100%)}
 }
 
-:root {
-    --cfix-opacity: 0.5;
-}
-
-
-
 /*Рамка активности людей*/
 
 [role="img"][aria-label]:before {
@@ -315,9 +309,8 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 /*=================================================================================================================================================================*/
 				                                      /*Фикс каналов*/
 
-
 .base-3dtUhz .sidebar-2K8pFh {
-    background-color: rgba(0,0,0,var(--cfix-opacity));
+    background-color: rgba(0,0,0,0.5);
 }
 
 .sidebar-2K8pFh .container-3w7J-x {
@@ -326,8 +319,9 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 
 .sidebar-2K8pFh .clickable-25tGDB .header-2V-4Sw:hover,
 .sidebar-2K8pFh .selected-31Nl7x .header-2V-4Sw {
-    background-color: rgba(0,0,0,calc(var(--cfix-opacity)/2));
+    background-color: rgba(0,0,0,0.25);
 }
+
 
 
 
