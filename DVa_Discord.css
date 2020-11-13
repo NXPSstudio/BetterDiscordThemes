@@ -1208,6 +1208,10 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     background-color: rgba(0, 0, 0, 0.6)!important;
 }
 
+.contentRegionScroller-26nc1e, .wrapper-2aW0bm {
+    background-color: transparent!important
+}
+
 .styleFixed-sX-yHV,
 .theme-dark .container-VSDcQc .sectionTag-pXyto9 {
     border-radius: 10px 10px 10px 10px;
