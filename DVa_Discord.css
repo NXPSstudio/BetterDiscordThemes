@@ -4505,17 +4505,14 @@ svg[name=Nitro] g path {
 				                                      /*Фикс каналов*/
 
 .base-3dtUhz .sidebar-2K8pFh {
-    background-color: 0.5;
+    background-color: transparent;
 }
 
 .sidebar-2K8pFh .container-3w7J-x {
     background-color: transparent;
 }
 
-.sidebar-2K8pFh .clickable-25tGDB .header-2V-4Sw:hover,
-.sidebar-2K8pFh .selected-31Nl7x .header-2V-4Sw {
-    background-color: rgba(0,0,0,0.25);
-}
+
 
 
 /*=================================================================================================================================================================*/
