@@ -3695,8 +3695,9 @@ svg[name=Nitro] g path {
     display: none
 }
 
-.content-3at_AU::after,.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ::after,   /*Настройки линии*/
-.layout-2DM8Md:after, .content-1x5b-n::after,
+.content-1x5b-n::after,                     /*Настройки линии*/
+.content-3at_AU::after,
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ::after,   
 .wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n::after { 
     content: "";
     height: 2px;
@@ -3707,6 +3708,19 @@ svg[name=Nitro] g path {
     position: absolute;
     background-color: var(--line);
     transform: translateX(-250px);
+    transition: all .2s ease
+}
+
+.layout-2DM8Md:after {                      /*Настройки линии справа*/
+    content: "";
+    height: 2px;
+    width: 91.5%;
+    border-radius: 50px;
+    bottom: 0;
+    left: 9px;
+    position: absolute;
+    background-color: var(--line);
+    transform: translateX(110%);
     transition: all .2s ease
 }
 
