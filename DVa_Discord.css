@@ -104,7 +104,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     to {filter: brightness(100%)}
 }
 
-/*Рамка активности людей*/
+    /*Рамка активности людей*/
 
 [role="img"][aria-label]:before {
     content: "";
@@ -305,7 +305,6 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
  .listDefault-2y5Z9D .avatarContainer-2inGBK, .avatar-1XO-mJ, .avatar-3bWpYy {
   border-radius: 50px;
 }
-
 
 /*=================================================================================================================================================================*/
 
@@ -811,12 +810,11 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     background: rgba(0, 0, 0, 0.6);
 }
 
-.standardSidebarView-3F1I7i #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
-    background: rgba(0, 0, 0, 0.87) !important;
-    border: none !important;
-    margin-right: 2px;
-    border-radius: 10px;
-    text-shadow: 2px 0px 3px black;
+.accountList-33MS45, .connectionHeader-2MDqhu, .background-1QDuV2, .phoneField-38N1bJ, .phoneField-38N1bJ .inputField-aNPXsv, .banner-WELp4M, .theme-dark .feature-2w65J5, .theme-dark .gemIndicatorContainer-2jdECl {
+  background-color: var(--backgroundDark);
+}
+.fieldList-21DyL8, .connection-1fbD7X {
+  background-color: var(--backgroundDarker);
 }
 
 .quickswitcher-3JagVE {
@@ -1212,7 +1210,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     opacity: 0.7;
 }
 
-.container-PNkimc {
+.sidebar-2K8pFh .container-3w7J-x {
     background-color: black; /*Цвет панели выбора каналов*/
 }
 
@@ -2058,8 +2056,8 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     background: var(--backgroundDark);
 }
 
-.inspector-sdLnLS {
-    background: none;
+.inspector-3LQtX9 {
+  background-color: var(--backgroundDark);
 }
 
 .colorDefault-2K3EoJ .checkbox-3s5GYZ, 
@@ -2475,10 +2473,10 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 
 .typeWindows-1za-n7{
     height: 20px;
-    margin-top: 0px!important;
+    margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    background: linear-gradient(to right, var(--primary) 0%, black 50%, var(--additional) 100%);
+    background: linear-gradient(to left, var(--additional) 0%, black 50%, var(--primary) 100%);
     box-shadow: inset 0px 19px 0px 0px black;
 }
 
@@ -3697,7 +3695,9 @@ svg[name=Nitro] g path {
     display: none
 }
 
-.content-3at_AU::after,.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ::after,.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU::after {  /*Настройки линии*/
+.content-3at_AU::after,.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ::after,   /*Настройки линии*/
+.layout-2DM8Md:after, .content-1x5b-n::after,
+.wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n::after { 
     content: "";
     height: 2px;
     width: 91.5%;
@@ -3708,6 +3708,18 @@ svg[name=Nitro] g path {
     background-color: var(--line);
     transform: translateX(-250px);
     transition: all .2s ease
+}
+
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover,.wrapper-2jXpOf:hover .content-1x5b-n {
+    background-color: transparent!important
+}
+
+.wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n {
+    background-color: transparent!important
+}
+
+.wrapper-2jXpOf.modeSelected-346R90 .content-1x5b-n::after,.wrapper-2jXpOf:hover .content-1x5b-n::after {
+    transform: translateX(0)
 }
 
 .theme-dark .unread-3zKkbm, .theme-light .unread-3zKkbm {
@@ -3873,19 +3885,6 @@ svg[name=Nitro] g path {
 
 .layout-2DM8Md {
     position: relative
-}
-
-.layout-2DM8Md:after {	/*Настройки линии на главной*/
-    content: "";
-    height: 2px;
-    width: 94.5%;
-    border-radius: 50px;
-    bottom: 0;
-    left: 6px;
-    position: absolute;
-    background-color: var(--line);
-    transform: translateX(110%);
-    transition: all .2s ease
 }
 
 .channel-2QD9_O .layout-2DM8Md:after {
@@ -4431,6 +4430,7 @@ svg[name=Nitro] g path {
 .icon-27yU2q {
     border-radius: 6px;	/*Иконки серверов в левом списке*/
 }
+
 /*==================================================================*/
 
 .iconInactive-98JN5i {
@@ -4499,20 +4499,3 @@ svg[name=Nitro] g path {
 [class*="toast"] {
   font-size: 10px!important;
 }
-
-
-/*=================================================================================================================================================================*/
-				                                      /*Фикс каналов*/
-
-.base-3dtUhz .sidebar-2K8pFh {
-    background-color: transparent;
-}
-
-.sidebar-2K8pFh .container-3w7J-x {
-    background-color: transparent;
-}
-
-
-
-
-/*=================================================================================================================================================================*/
