@@ -1,10 +1,10 @@
-	/*Размещение текста*/
+    /*Размещение текста*/
     
 .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item, .side-8zPYf6 .item-PXvHYJ {padding-left: 40px;}
 div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item,
 div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
  
-	/*Декоративные значки разделов*/
+    /*Декоративные значки разделов*/
 
 /*==  ALL (Bandaged BD)  ==*/
 .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:nth-child(03)::before{background:url(https://codedotspectra.github.io/themes/icons/core.png) center}
@@ -308,11 +308,11 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 
 /*=================================================================================================================================================================*/
 
-.avatarUploaderInner-3UNxY3 {				/*Форма аватарки в настройках сервера*/
+.avatarUploaderInner-3UNxY3 {               /*Форма аватарки в настройках сервера*/
     border-radius: 6px;
 }
 
-.markup-2BOw-j,								/*Цвет и форма букв основного теста*/
+.markup-2BOw-j,                             /*Цвет и форма букв основного теста*/
 .cozy-3raOZG .header-23xsNx {
     color: #efff;
     text-shadow: 0px 0px 2px black,
@@ -411,7 +411,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     border-color: transparent !important;
 }
 
-.input-cIJ7To {							/*заметки и сообщения*/
+.input-cIJ7To {                         /*заметки и сообщения*/
     border-radius: 5px;
     color: white;
     background-color: rgba(0,0,0,.4);
@@ -903,7 +903,6 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     box-shadow: none;
 }
 
-.privateChannels-1nO12o,
 .scroller-1JbKMe,
 .theme-dark .wrapper-1Rf91z,
 .theme-dark .scroller-2TZvBN {
@@ -913,10 +912,6 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 .container-2XeR5Z {
     border-radius: 6px;
     background-color: rgba(0, 0, 0, 0.23)
-}
-
-.panels-j1Uci_ {
-    background-color: rgba(0, 0, 0, 0.26);
 }
 
 .container-2Pjhx- {
@@ -1058,7 +1053,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 }
 
 .theme-dark .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
-    border-top-color: var(--popout);			/*Цвет уголка окон всплывающего текста*/
+    border-top-color: var(--popout);            /*Цвет уголка окон всплывающего текста*/
 }
 
 .theme-dark .tooltipBlack-PPG47z {
@@ -1097,11 +1092,6 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 
 .childWrapper-anI2G9 {
     background-color: rgba(0,0,0,.4);
-}
-
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, 
-.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
-    background-color: var(--backgroundLighter);
 }
 
 .guildSeparator-3s64Iy {
@@ -1210,12 +1200,12 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     opacity: 0.7;
 }
 
-.sidebar-2K8pFh .container-3w7J-x {
-    background-color: black; /*Цвет панели выбора каналов*/
-}
-
-.platform-win .sidebar-2K8pFh {
-    background-color: black; /*Цвет панели статуса*/
+.sidebar-2K8pFh .container-3w7J-x,                      /*Цвет панели статуса и каналов*/
+.base-3dtUhz .sidebar-2K8pFh,
+.platform-win .sidebar-2K8pFh,
+.privateChannels-1nO12o,
+.panels-j1Uci_ {
+    background-color: rgba(0, 0, 0, 0.6)!important;
 }
 
 .styleFixed-sX-yHV,
@@ -1731,7 +1721,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
                  2px 0px 3px black;
 }
 
-.button-14-BFJ {						/*Цвет и размер главных кнопок*/
+.button-14-BFJ {                        /*Цвет и размер главных кнопок*/
     margin-right: -2px;
     background-color: rgba(0,0,0,.089);
 }
@@ -2115,7 +2105,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 
 .form-2fGMdU:before,
 .separator-42rNt0 {
-	background: none;}
+    background: none;}
   
 .icon-KgGMGo,
 .button-1ZiXG9 {
@@ -2222,7 +2212,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     border-radius: 10px;
 }
 
-.imageWrapper-2p5ogY {		/*Закругление изображений*/
+.imageWrapper-2p5ogY {      /*Закругление изображений*/
     border-radius: 5px;
 }
 
@@ -2240,9 +2230,9 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 }
 
 .jumpToPresentBar-G1R9s6 {
-	overflow: hidden;
-	background: var(--primary);
-	opacity: 1;
+    overflow: hidden;
+    background: var(--primary);
+    opacity: 1;
 }
 
 /*Полосы разделения основного чата*/
@@ -2505,7 +2495,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 }
 
 .itemBackground-1jfD8p:before {
-	background: transparent
+    background: transparent
 }
 
 @media (min-width:849px) {
@@ -2612,11 +2602,11 @@ div[data-contents="true"] {
     background-color: rgba(0,0,0,.25)!important
 }
 
-.hljs {		/*ёёё табло*/
-    border-radius:	6px  /*Левый  верхний угол*/
-    				6px  /*Правый верхний угол*/
-    				6px  /*Правый нижний  угол*/
-    				6px  /*Левый  нижний  угол*/
+.hljs {     /*ёёё табло*/
+    border-radius:  6px  /*Левый  верхний угол*/
+                    6px  /*Правый верхний угол*/
+                    6px  /*Правый нижний  угол*/
+                    6px  /*Левый  нижний  угол*/
 }
 
 .markup-2BOw-j pre {
@@ -3257,11 +3247,11 @@ svg[name=Nova_Discord] * {
     max-width: 100%
 }
 
-.themeClear-1EjkE4.valueChecked-m-4IJZ,.themeDefault-24hCdX.sizeDefault-2YlOZr {	/*Цвет выключенного переключателя*/
+.themeClear-1EjkE4.valueChecked-m-4IJZ,.themeDefault-24hCdX.sizeDefault-2YlOZr {    /*Цвет выключенного переключателя*/
     background-color: rgba(0,0,0,.5)!important
 }
 
-.themeDefault-24hCdX.valueChecked-m-4IJZ {											/*Цвет включенного переключателя*/
+.themeDefault-24hCdX.valueChecked-m-4IJZ {                                          /*Цвет включенного переключателя*/
     background-color: var(--primary)!important
 }
 
@@ -3270,7 +3260,7 @@ svg[name=Nova_Discord] * {
 }
 
 .barFill-23-gu-{
-	background-color: var(--primary)!important /*Полоска громкости пользователя*/
+    background-color: var(--primary)!important /*Полоска громкости пользователя*/
 }
 
 .accountBtnInner-sj5jLs,.bar-2Qqk5Z {
@@ -3295,7 +3285,7 @@ svg[name=Nova_Discord] * {
     background-color: var(--backgroundDark)!important
 }
 
-.elevationHigh-1PneE4[style*="32, 34, 37"] {		/*Аккуратнее, вы не сохранили изменения!*/
+.elevationHigh-1PneE4[style*="32, 34, 37"] {        /*Аккуратнее, вы не сохранили изменения!*/
     background-color: var(--backgroundDark)!important;
     box-shadow: 0 0 3.5px 1.5px rgba(0,0,0,.5)!important
 }
@@ -3711,7 +3701,7 @@ svg[name=Nitro] g path {
     transition: all .2s ease
 }
 
-.layout-2DM8Md:after {                      /*Настройки линии справа*/
+.layout-2DM8Md:after {                  /*Настройки линии справа*/
     content: "";
     height: 2px;
     width: 91.5%;
@@ -3742,7 +3732,7 @@ svg[name=Nitro] g path {
 }
 
 .newMessagesBar-265mhP {
-	background-color: var(--unread);
+    background-color: var(--unread);
 }
 
 .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh,.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover,.wrapper-1ucjTd:hover .content-3at_AU {
@@ -3875,9 +3865,7 @@ svg[name=Nitro] g path {
     background-color: var(--backgroundDark)!important
 }
 
-.panels-j1Uci_, .privateChannels-1nO12o {
-    background: 0 0!important;
-}
+
 
 .activityPanel-28dQGo {
     border: none
@@ -3919,31 +3907,6 @@ svg[name=Nitro] g path {
 
 .selected-aXhQR6 .layout-2DM8Md .name-uJV0GL, input.da-input, input.da-input:focus {
     color: #efff
-}
-
-.wrapper-2qzCYF.minimum-28Z35l,
-.wrapper-3vR61M,
-.scroller-2XE8rp,
-.theme-dark .notice-2X5hT5,
-.attachPopout-36hjtN,
-.contentRegionScroller-26nc1e,
-.messages-3amgkR,
-.scroller-2FKFPG .scroller-305q3I,
-.theme-dark .perksModal-fSYqOq,
-.container-1giJp5,
-.container-3baos1,
-.privateChannels-1nO12o,
-.root-SR8cQa,
-.scroller-1JbKMe,
-.scroller-2TZvBN,
-.theme-dark .bodyInner-245q0L,
-.theme-dark .footer-1fjuF6,
-.activityPanel-28dQGo,
-.friendsTable-133bsv .friendsTableBody-1ZhKif,
-.scroller-1IIF0A,
-.scroller-9moviB,
-.wrapper-2aW0bm {
-    background-color: transparent!important
 }
 
 .container-1r6BKw.themed-ANHk51 {
@@ -4327,11 +4290,11 @@ svg[name=Nitro] g path {
 }
 
 .theme-dark .emptyHintCard-2mUdMe,.theme-dark .tooltipGrey-1hnvTt,.theme-dark .popout-1k352f,.theme-dark .popout-38lTFE,.bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected {
-    background-color: var(--popout);		/*Процент громкости пользователя*/
+    background-color: var(--popout);        /*Процент громкости пользователя*/
 }
 
 .theme-dark .tooltipGrey-1hnvTt .tooltipPointer-3ZfirK {
-    border-top-color: var(--popout);		/*Процент громкости пользователя (галочка)*/
+    border-top-color: var(--popout);        /*Процент громкости пользователя (галочка)*/
 }
 
 .partyMember-1CzxeX {
@@ -4442,7 +4405,7 @@ svg[name=Nitro] g path {
 }
 
 .icon-27yU2q {
-    border-radius: 6px;	/*Иконки серверов в левом списке*/
+    border-radius: 6px; /*Иконки серверов в левом списке*/
 }
 
 /*==================================================================*/
