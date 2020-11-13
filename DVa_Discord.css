@@ -4512,7 +4512,10 @@ svg[name=Nitro] g path {
     background-color: transparent;
 }
 
-
+.sidebar-2K8pFh .clickable-25tGDB .header-2V-4Sw:hover,
+.sidebar-2K8pFh .selected-31Nl7x .header-2V-4Sw {
+    background-color: rgba(0,0,0,0.25);
+}
 
 
 /*=================================================================================================================================================================*/
